@@ -748,6 +748,7 @@ class Player {
 		Comparator<Cards> compareByPriority = (Cards c1, Cards c2) -> Integer.compare(c1.priority, c2.priority);
 
 		// game loop
+//kamukomment a git miatt
 		int turn = 0;
 		int boardCards = 0;
 		double minHeuristicCost;
